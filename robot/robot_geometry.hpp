@@ -1,4 +1,8 @@
-/* File: mini_geometry.h
+/*
+Modified for use with robot model by Frank P Haecker
+*/
+
+/*Original File: mini_geometry.h
    Author: T.J. Jankun-Kelly <tjk@cse.msstate.edu>
    Geometry for the Mini Cooper model.
 

@@ -34,7 +34,6 @@ http://antongerdelan.net/opengl/hellotriangle.html
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 #include "robot_geometry.hpp"
-#include <math.h>
 #include <Windows.h>
 #include "BMPLoader.h"
 
@@ -52,7 +51,6 @@ GLuint chestTexture2;
 GLuint faceTexture;
 GLuint genericTexture;
 int passes = 0;
-float avgx,avgy,avgz,tireAngle;
 MiniGeometry mini;     // The mini geometry data
 const unsigned short* indices;
 
@@ -533,10 +531,10 @@ void render()
 			glBindTexture(GL_TEXTURE_2D, *temp.texture);
 			if(entry.name == "TorsoFront")
 			{
-				if (passes > 10)
-					glBindTexture(GL_TEXTURE_2D, chestTexture2);
-				if (passes > 20)
-					passes = 0;
+			if (passes > 10)
+				glBindTexture(GL_TEXTURE_2D, chestTexture2);
+			if (passes > 20)
+				passes = 0;
 			}
 			float* s = positionData;
 			for (int i = entry.start; i < entry.end; i++)

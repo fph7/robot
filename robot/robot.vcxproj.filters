@@ -28,9 +28,6 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="mini_geometryO.hpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="robot_geometry.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
