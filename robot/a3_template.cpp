@@ -84,7 +84,7 @@ ColorEntry colormap[] {
 	{ string("Head"), { 1, 1, 1 }, &genericTexture },
 	{ string("Neck"), { 1, 1, 1 }, &genericTexture },
 	{ string("TorsoFront"), { 1, 1, 1 }, &chestTexture},
-	{ string("Face"), { 0.8, 0.8, 0.8 }, &faceTexture },
+	{ string("Face"), { 0.77, 0.77, 0.77 }, &faceTexture },
 	{ string("Torso"), { 1, 1, 1 }, &genericTexture },
 	{ string("RightLeg"), { 0.6, 0.6, 0.7 }, &legTexture },
 	{ string("LeftLeg"), {0.6,0.6,0.7}, &legTexture},
@@ -94,7 +94,7 @@ ColorEntry colormap[] {
 	{ string("Red"), { 1, 0, 0 }, 0},
 	{ string("Teal"), { 0, 1, 1 }, 0},
 	{ string("Green"), { 0, 1, 0 }, 0},
-	{ string("Blue"), { 0, 0, 1 }, 0},
+	{ string("Blue"), { 0, 0, 0.5 }, 0},
 	{ string("Black"), { 0, 0, 0 }, 0},
 };
 ColorEntry getColor(string name)
@@ -415,7 +415,6 @@ void createBuffers()
 		positionData[i*3] = mini.vertexdata()[i*3];
 		positionData[i*3+1] = mini.vertexdata()[i*3+1];
 		positionData[i*3+2] = mini.vertexdata()[i*3+2];
-		//out << positionData[i * 3] << " " << positionData[i * 3 + 1] << " " << positionData[i * 3 + 2] << endl;
 	}
 
 	int dataSize = mini.numVertices() * 3 * sizeof(float);

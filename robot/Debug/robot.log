@@ -1,25 +1,9 @@
-﻿Build started 12/9/2014 4:45:29 AM.
-     1>Project "C:\Users\Paul\Documents\Visual Studio 2013\Projects\robot\robot\robot.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt a3_template.cpp
-         a3_template.cpp
-     1>c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\glfw\glfw3.h(92) : see previous definition of 'APIENTRY'
-     1>c:\users\paul\documents\visual studio 2013\projects\robot\robot\a3_template.cpp(99): warning C4305: 'initializing' : truncation from 'double' to 'float'
-     1>c:\users\paul\documents\visual studio 2013\projects\robot\robot\a3_template.cpp(121): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
-     1>c:\users\paul\documents\visual studio 2013\projects\robot\robot\a3_template.cpp(126): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\paul\documents\visual studio 2013\projects\robot\robot\a3_template.cpp(127): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\paul\documents\visual studio 2013\projects\robot\robot\a3_template.cpp(128): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\paul\documents\visual studio 2013\projects\robot\robot\a3_template.cpp(129): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\paul\documents\visual studio 2013\projects\robot\robot\a3_template.cpp(198): warning C4305: 'initializing' : truncation from 'double' to 'float'
-     1>c:\users\paul\documents\visual studio 2013\projects\robot\robot\a3_template.cpp(204): warning C4305: 'initializing' : truncation from 'double' to 'float'
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Paul\Documents\Visual Studio 2013\Projects\robot\Debug\robot.exe" /INCREMENTAL /NOLOGO gdi32.lib opengl32.lib glew32.lib glu32.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Paul\Documents\Visual Studio 2013\Projects\robot\Debug\robot.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Paul\Documents\Visual Studio 2013\Projects\robot\Debug\robot.lib" /MACHINE:X86 Debug\a3_template.obj
-         Debug\BMPLoader.obj
-     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
-         robot.vcxproj -> C:\Users\Paul\Documents\Visual Studio 2013\Projects\robot\Debug\robot.exe
-     1>Done Building Project "C:\Users\Paul\Documents\Visual Studio 2013\Projects\robot\robot\robot.vcxproj" (Build target(s)).
+﻿Build started 12/10/2014 8:38:30 PM.
+     1>Project "C:\Users\Paul\documents\visual studio 2013\Projects\robot\robot\robot.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         robot.vcxproj -> C:\Users\Paul\documents\visual studio 2013\Projects\robot\Debug\robot.exe
+     1>Done Building Project "C:\Users\Paul\documents\visual studio 2013\Projects\robot\robot\robot.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.88
+Time Elapsed 00:00:00.03

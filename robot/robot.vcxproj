@@ -69,7 +69,6 @@
     <ClCompile Include="BMPLoader.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="backup.txt" />
     <Text Include="robot_geometry.txt" />
   </ItemGroup>
   <ItemGroup>

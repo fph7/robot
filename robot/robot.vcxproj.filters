@@ -26,9 +26,6 @@
     <Text Include="robot_geometry.txt">
       <Filter>Resource Files</Filter>
     </Text>
-    <Text Include="backup.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mini_geometryO.hpp">

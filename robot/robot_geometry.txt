@@ -247,7 +247,9 @@
 116 117 136 138
 119 118 137 139
 139 137 136 138
-26
+22
+22 23 Face
+22 28 Head
 102 107 LeftClawNail1
 97 102 LeftClawNail2
 76 82 LeftClaw1
@@ -264,8 +266,6 @@
 12 13 TorsoFront
 13 18 Torso
 18 22 Neck
-22 23 Face
-22 28 Head
 31 37 RightForearm
 37 43 LeftForearm
 43 49 RightArm
