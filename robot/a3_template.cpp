@@ -317,11 +317,11 @@ static void key_callback(GLFWwindow* window, int key, int scancode, int action, 
 			glMatrixMode(GL_MODELVIEW);
 		}
 	}
-	else if (key == GLFW_KEY_KP_ADD)
+	else if (key == GLFW_KEY_KP_ADD || key == GLFW_KEY_EQUAL)
 	{
 		glMultMatrixf(scaleUp);
 	}
-	else if (key == GLFW_KEY_KP_SUBTRACT)
+	else if (key == GLFW_KEY_KP_SUBTRACT || key == GLFW_KEY_MINUS)
 	{
 		glMultMatrixf(scaleDown);
 	}
